@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Projekti Front-End </title>
+</head>
+<body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+  
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+  </script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <div class="header">
+<div class="navbar">
+  <a href="#hero"><img src="https://pbs.twimg.com/profile_images/722464946223738880/qu21WFJ9_400x400.jpg"></a>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+</div>
+
+<div class="parallax-image">
+  <div id="hero" class="animated fadeInUp">
+
+  <h1>Hi, I'm Catherine and I am a web designer & developer.</h1>
+</div>
+</div>
+
+<div id="about">
+  <div class="about-content">
+  <div class="about-text animated fadeInUp">
+    <h2>About Me</h2>
+    <p>Talented graphic design lead with professional experience in branding, print and web design. Highly motivated, creative, and versatile. Exceptionally skilled in creating and directing corporate and new business design. Adept at innovating user experience for the web and multimedia applications. Excellent interpersonal skills with team. Highly experienced with creating the perfect marriage of client desires and a superior design solution. Seeking opportunities that demand high-quality design to further business goals and professional image.</p>
+  </div>
+  <img src="">
+  </div>
+</div>
+
+<div id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio-items">
+    <div class="portfolio-item">
+      <a href="" target='_blank'><img src=""></a>
+      <h3>Hollywood Houndz</h3>
+    </div>
+    <div class="portfolio-item">
+      <a href="" target='_blank'><img src=""></a>
+      <h3>Florida Connexion Business Brokers</h3>
+    </div>
+    <div class="portfolio-item">
+      <a href="" target='_blank'><img src=""></a>
+      <h3>Brazilian Espresso</h3>
+    </div>
+    <div class="portfolio-item">
+      <a href="" target='_blank'><img src=""></a>
+      <h3>Your Fabulous Event</h3>
+    </div>
+    <div class="portfolio-item">
+      <a href="" target='_blank'><img src=""></a>
+      <h3>Your Bridal Couture</h3>
+    </div>
+    <div class="portfolio-item">
+      <a href="" target='_blank'><img src=""></a>
+      <h3>Celebration Tours</h3>
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <form>
+    <h3>Send Me a Message:</h3>
+<input type="text" name="name" placeholder="Name"/>
+<input type="text" name="email" placeholder="Email"/>
+<textarea name="message" form="message" placeholder="Message"></textarea>
+    <br>
+    <input type="submit" value="Submit" class="submit">
+</form>
+  
+  <div class="social">
+    <h3>Let's Connect:</h3>
+    <div class="social-icons">
+      <a href="dribbble.com/creativecatherine" target='_blank'><i class="icon-dribbble"></i></a>
+      <a href="twitter.com/creativecatherine" target='_blank'><i class="icon-twitter"></i></a>
+      <a href="instagram.com/creativecatherine" target='_blank'><i class="icon-instagram" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  
+</div>
+</body>
+</html>
