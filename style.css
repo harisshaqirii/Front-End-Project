@@ -35,7 +35,7 @@ nav li {
 }
 
 nav a:hover {
-  color: #f7455f;
+  color: #305252;
 }
 
 nav a {
@@ -44,7 +44,7 @@ nav a {
   font-family: 'raleway', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: gray;
+  color: grey;
   letter-spacing: .06em;
   transition:.5s;
 }
@@ -67,10 +67,12 @@ nav a {
   text-align: center;
   letter-spacing: .04em;
   font-size: 30px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .parallax-image {
-  background-image: url('https://hd.unsplash.com/photo-1466786784937-3e682c802b14');
+  background-image: url('https://media.istockphoto.com/id/1129847477/vector/pastel-multi-color-gradient-background-simple-form-and-blend-of-color-spaces-as-contemporary.jpg?s=170667a&w=0&k=20&c=7PO5G3j5aNb1tk4PkWiLVDGGLDaULFzom6a3GRPGBMQ=');
   background-size: cover;
   height: 500px;
   background-position: bottom;
@@ -90,7 +92,7 @@ nav a {
   text-align: left;
   font-size: 40px;
   margin: 0;
-  color: #f7455f;
+  color: #305252;
 }
 
 #about p {
@@ -161,7 +163,7 @@ nav a {
 }
 
 #contact {
-  background-color: #f7455f;
+  background-color: #1C2541;
   padding: 100px 10%;
   display: flex;
   justify-content: center;
