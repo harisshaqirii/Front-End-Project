@@ -11,29 +11,9 @@
 </head>
 <body>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-  
-  $("a").on('click', function(event) {
 
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      var hash = this.hash;
-
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        window.location.hash = hash;
-      });
-    }
-  });
-});
-  </script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -47,6 +27,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#portfolio">Our Products</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li style="margin-left: 40px;"><a style="color: #305252;"href="shop.html">Shop</a></li>
     </ul>
   </nav>
 </div>
@@ -73,32 +54,32 @@
   <h2>Our Products:</h2>
   <div class="portfolio-items">
     <div class="portfolio-item">
-      <a href="images/iphonesample.png" target='_blank'><img src="images/iphonesample.png"></a>
+      <img src="images/iphonesample.png">
       <h3> Phones </h3>
     </div>
     <div class="portfolio-item">
-      <a href="images/monitorsample.png" target='_blank'><img src="images/monitorsample.png"></a>
+      <img src="images/monitorsample.png">
       <h3> Monitors </h3>
     </div>
     <div class="portfolio-item">
-      <a href="" target='_blank'><img src=""></a>
+      <img src="images/tvsample.png">
       <h3> TV's </h3>
     </div>
     <div class="portfolio-item">
-      <a href="" target='_blank'><img src=""></a>
+      <img src="images/mousesample.png">
       <h3> Mouses </h3>
     </div>
     <div class="portfolio-item">
-      <a href="" target='_blank'><img src=""></a>
+      <img src="images/headphonesample.png">
       <h3> Headphones </h3>
     </div>
     <div class="portfolio-item">
-      <a href="" target='_blank'><img src=""></a>
+      <img src="images/keyboardsample.png">
       <h3> Keyboards </h3>
     </div>
   </div>
 </div>
-
+<center>
 <div id="contact">
   <form>
     <h3>Send Me a Message:</h3>
@@ -107,7 +88,13 @@
 <br>
     <input type="submit" value="Submit" class="submit">
 </form>
+</center>
   
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+
 </body>
 </html>

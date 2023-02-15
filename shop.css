@@ -1,0 +1,51 @@
+body {background-image: url('https://media.istockphoto.com/id/1129847477/vector/pastel-multi-color-gradient-background-simple-form-and-blend-of-color-spaces-as-contemporary.jpg?s=170667a&w=0&k=20&c=7PO5G3j5aNb1tk4PkWiLVDGGLDaULFzom6a3GRPGBMQ=');
+      background-size: cover;}
+
+.header {
+  background-color: white;
+  z-index: 3;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 4px 15px -2px rgba(0,0,0,.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar img {
+  height: 75px;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-right: 200px;
+}
+
+nav a:hover {
+  color: #305252;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 40px;
+  font-family: 'raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: .06em;
+  transition:.5s;
+}
