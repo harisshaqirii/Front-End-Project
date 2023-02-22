@@ -165,3 +165,13 @@ textarea {
 #contact i:hover {
   opacity: 1;
 }
+
+#clock {background-color: #1C2541;
+        color: white;
+        font-size: 35px;
+        padding-bottom: 30px;}
+
+div {align-items: center;
+     align-content: center;
+     align-self: center;
+     text-align: center;}
